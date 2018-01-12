@@ -1,0 +1,101 @@
+*{
+	font-family: georgia;
+}
+
+#Education {background-color:#cc0000;}
+#Academics {background-color:#336600;}
+#Skills {background-color:#000099;}
+#WorkExperience {background-color:#ff9900;}
+
+.name {
+	padding-top: 10px;
+}
+
+.face {
+	padding-top:10px;
+ 	padding-left:15px;
+ 	padding-bottom: 15px;
+}
+
+.stevens {
+	padding-left: 25px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+  float: left;
+
+}
+
+.left {
+  width:300px;
+}
+
+.right {
+  padding-left:30px;
+  margin-right:50px;
+  padding-top:30px;
+  position: absolute;
+  left:400px;
+  text-align: left;
+  font-size: 18px;
+}
+
+/*.left_academics {
+    width:300px;
+}
+
+
+.right_academics{
+  position: absolute;
+  left:400px;
+  padding-left: 90px; padding-top:30px;
+}
+
+.left_workExperience {
+  width:300px;
+}
+
+.right_workExperience {
+   position: absolute;
+  left:400px;
+}
+
+.left_skills {
+  width:300px;
+}
+
+.right_skills {
+  position: absolute;
+  left:400px;
+}
+*/
+
+
+.tablink {
+	background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+	background-color:#777;
+}
+
+.tabcontent {
+	color:white;
+	display: none;
+	padding:50px;
+	text-align: center;
+}
+
