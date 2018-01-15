@@ -2,7 +2,7 @@
 	font-family: georgia;
 }
 
-#Education {background-color:#cc0000;}
+#Education {background-color:#cc0000; }
 #Academics {background-color:#336600;}
 #Skills {background-color:#000099;}
 #WorkExperience {background-color:#ff9900;}
@@ -33,6 +33,7 @@
 
 .left {
   width:300px;
+  min-height: 700px;
 }
 
 .right {
@@ -44,37 +45,6 @@
   text-align: left;
   font-size: 18px;
 }
-
-/*.left_academics {
-    width:300px;
-}
-
-
-.right_academics{
-  position: absolute;
-  left:400px;
-  padding-left: 90px; padding-top:30px;
-}
-
-.left_workExperience {
-  width:300px;
-}
-
-.right_workExperience {
-   position: absolute;
-  left:400px;
-}
-
-.left_skills {
-  width:300px;
-}
-
-.right_skills {
-  position: absolute;
-  left:400px;
-}
-*/
-
 
 .tablink {
 	background-color: #555;
